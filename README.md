@@ -34,27 +34,27 @@ If you build this project successfully, you will see:
 
 ## 💻 Usage
 - To enable nginx to effectively perform its load balancing function, you need to edit nginx configuration file and add the servers that require proxying.
-```shell
-vim /path/to/nginx/conf/nginx.conf
-```
-Add your server info in the `stream` section:
-```
-stream {
-    upstream MyServer {
-        server ServerIP:Port weight=1 max_fails=3 fail_timeout=30s;
-        # ...
-        server ServerIP:Port weight=1 max_fails=3 fail_timeout=30s;
-    }
-    
-    server {
-        proxy_connect_timeout 1s;
-        proxy_timeout 3000s;
-        listen 8000;
-        proxy_pass MyServer;
-        tcp_nodelay on;
-    }
-}
-```
-Then, run nginx with `nginx -c /path/to/nginx/conf/nginx.conf`
+  ```shell
+  vim /path/to/nginx/conf/nginx.conf
+  ```
+  Add your server info in the `stream` section:
+  ```
+  stream {
+      upstream MyServer {
+          server ServerIP:Port weight=1 max_fails=3 fail_timeout=30s;
+          # ...
+          server ServerIP:Port weight=1 max_fails=3 fail_timeout=30s;
+      }
+      
+      server {
+          proxy_connect_timeout 1s;
+          proxy_timeout 3000s;
+          listen 8000;
+          proxy_pass MyServer;
+          tcp_nodelay on;
+      }
+  }
+  ```
+  Then, run nginx with `nginx -c /path/to/nginx/conf/nginx.conf`
 
 - Run your server(s) with ``
