@@ -31,6 +31,7 @@ If you build this project successfully, you will see:
 [ 80%] Built target ChatClient
 [100%] Built target redis
 ```
+
 ## 💻 Usage
 - First, To enable nginx to effectively perform its load balancing function, you need to edit its configuration file and add the servers that require proxying.
 ```shell
