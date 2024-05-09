@@ -11,3 +11,5 @@ MRCCSC is a cluster chat system, it employs Muduo as network communication compo
   
 ## :hammer: Environment Configuration & Build
 As mentioned above, MRCCSC is based on Muduo, Redis and MySQL. Therefore, if you are interested in MRCCSC and try to build and run MRCCSC, you can follow these tutorials to config your environment:
+  - [how to use muduo in your project](https://github.com/chenshuo/muduo-tutorial)
+  - hello
