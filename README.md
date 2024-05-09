@@ -24,4 +24,5 @@ Once you finished these basic environment configuration, you can build MRCCSC ne
 git clone https://github.com/Knight-kkk/MRCCSC.git
 cd build
 ./autobuild.sh
+```
 
