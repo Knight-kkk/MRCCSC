@@ -21,4 +21,7 @@ As mentioned above, MRCCSC is based on Muduo, JSON, MySQL, Nginx and Redis. If y
 
 Once you finished these basic environment configuration, you can build MRCCSC next.
 ```shell
-git clone 
+git clone https://github.com/Knight-kkk/MRCCSC.git
+cd build
+./autobuild.sh
+
