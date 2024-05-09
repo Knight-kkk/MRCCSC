@@ -36,6 +36,7 @@ MRCCSC: A **M**uduo and **R**edis-based **C**hat **C**luster **S**erver and **C*
   ```
 
 ## 💻 Usage
+- create table in MySQL, exact mysql script is included in `example/create.sql`, and the configuration of MySQL is in `include/`
 - To enable nginx to effectively perform its load balancing function, you need to edit nginx configuration file and add the servers that require proxying.
   ```shell
   vim /path/to/nginx/conf/nginx.conf
