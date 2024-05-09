@@ -20,3 +20,5 @@ As mentioned above, MRCCSC is based on Muduo, JSON, MySQL, Nginx and Redis. If y
   2. The usage of MySQL and JSON has been encapsulated within this project, and will be introduced in subsequent section.
 
 Once you finished these basic environment configuration, you can build MRCCSC next.
+```shell
+git clone 
