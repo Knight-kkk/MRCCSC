@@ -63,5 +63,4 @@ MRCCSC: A **M**uduo and **R**edis-based **C**hat **C**luster **S**erver and **C*
 - The usage of client will be shown once you run it.
 
 ## :art:Features
-  MRCCSC supports these fucntions below:
-  - hello
+  - 
