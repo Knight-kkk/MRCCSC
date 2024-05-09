@@ -38,3 +38,20 @@ If you build this project successfully, you will see:
 vim /path/to/nginx/conf/nginx.conf
 ```
 Add your server info in the `stream` section:
+```
+stream {
+    upstream MyServer {
+        server ServerIP:Port weight=1 max_fails=3 fail_timeout=30s;
+        # ...
+        server ServerIP:Port weight=1 max_fails=3 fail_timeout=30s;
+    }
+    
+    server {
+        proxy_connect_timeout 1s;
+        proxy_timeout 3000s;
+        listen 8000;
+        proxy_pass MyServer;
+        tcp_nodelay on;
+    }
+}
+```
