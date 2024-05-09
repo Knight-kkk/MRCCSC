@@ -1,0 +1,62 @@
+[
+{
+  "directory": "/home/jushan/桌面/ChatRoom/build/src/server",
+  "command": "/opt/rh/devtoolset-9/root/usr/bin/g++   -I/home/jushan/桌面/ChatRoom/include/common -I/home/jushan/桌面/ChatRoom/include/server -I/home/jushan/桌面/ChatRoom/include/server/db -I/home/jushan/桌面/ChatRoom/include/server/model -I/home/jushan/桌面/ChatRoom/include/client -I/home/jushan/桌面/ChatRoom/include/server/redis  -std=c++11 -g   -o CMakeFiles/ChatServer.dir/main.cpp.o -c /home/jushan/桌面/ChatRoom/src/server/main.cpp",
+  "file": "/home/jushan/桌面/ChatRoom/src/server/main.cpp"
+},
+{
+  "directory": "/home/jushan/桌面/ChatRoom/build/src/server",
+  "command": "/opt/rh/devtoolset-9/root/usr/bin/g++   -I/home/jushan/桌面/ChatRoom/include/common -I/home/jushan/桌面/ChatRoom/include/server -I/home/jushan/桌面/ChatRoom/include/server/db -I/home/jushan/桌面/ChatRoom/include/server/model -I/home/jushan/桌面/ChatRoom/include/client -I/home/jushan/桌面/ChatRoom/include/server/redis  -std=c++11 -g   -o CMakeFiles/ChatServer.dir/offlinemessagemodel.cpp.o -c /home/jushan/桌面/ChatRoom/src/server/offlinemessagemodel.cpp",
+  "file": "/home/jushan/桌面/ChatRoom/src/server/offlinemessagemodel.cpp"
+},
+{
+  "directory": "/home/jushan/桌面/ChatRoom/build/src/server",
+  "command": "/opt/rh/devtoolset-9/root/usr/bin/g++   -I/home/jushan/桌面/ChatRoom/include/common -I/home/jushan/桌面/ChatRoom/include/server -I/home/jushan/桌面/ChatRoom/include/server/db -I/home/jushan/桌面/ChatRoom/include/server/model -I/home/jushan/桌面/ChatRoom/include/client -I/home/jushan/桌面/ChatRoom/include/server/redis  -std=c++11 -g   -o CMakeFiles/ChatServer.dir/server.cpp.o -c /home/jushan/桌面/ChatRoom/src/server/server.cpp",
+  "file": "/home/jushan/桌面/ChatRoom/src/server/server.cpp"
+},
+{
+  "directory": "/home/jushan/桌面/ChatRoom/build/src/server",
+  "command": "/opt/rh/devtoolset-9/root/usr/bin/g++   -I/home/jushan/桌面/ChatRoom/include/common -I/home/jushan/桌面/ChatRoom/include/server -I/home/jushan/桌面/ChatRoom/include/server/db -I/home/jushan/桌面/ChatRoom/include/server/model -I/home/jushan/桌面/ChatRoom/include/client -I/home/jushan/桌面/ChatRoom/include/server/redis  -std=c++11 -g   -o CMakeFiles/ChatServer.dir/service.cpp.o -c /home/jushan/桌面/ChatRoom/src/server/service.cpp",
+  "file": "/home/jushan/桌面/ChatRoom/src/server/service.cpp"
+},
+{
+  "directory": "/home/jushan/桌面/ChatRoom/build/src/server",
+  "command": "/opt/rh/devtoolset-9/root/usr/bin/g++   -I/home/jushan/桌面/ChatRoom/include/common -I/home/jushan/桌面/ChatRoom/include/server -I/home/jushan/桌面/ChatRoom/include/server/db -I/home/jushan/桌面/ChatRoom/include/server/model -I/home/jushan/桌面/ChatRoom/include/client -I/home/jushan/桌面/ChatRoom/include/server/redis  -std=c++11 -g   -o CMakeFiles/ChatServer.dir/db/db.cpp.o -c /home/jushan/桌面/ChatRoom/src/server/db/db.cpp",
+  "file": "/home/jushan/桌面/ChatRoom/src/server/db/db.cpp"
+},
+{
+  "directory": "/home/jushan/桌面/ChatRoom/build/src/server",
+  "command": "/opt/rh/devtoolset-9/root/usr/bin/g++   -I/home/jushan/桌面/ChatRoom/include/common -I/home/jushan/桌面/ChatRoom/include/server -I/home/jushan/桌面/ChatRoom/include/server/db -I/home/jushan/桌面/ChatRoom/include/server/model -I/home/jushan/桌面/ChatRoom/include/client -I/home/jushan/桌面/ChatRoom/include/server/redis  -std=c++11 -g   -o CMakeFiles/ChatServer.dir/model/friendmodel.cpp.o -c /home/jushan/桌面/ChatRoom/src/server/model/friendmodel.cpp",
+  "file": "/home/jushan/桌面/ChatRoom/src/server/model/friendmodel.cpp"
+},
+{
+  "directory": "/home/jushan/桌面/ChatRoom/build/src/server",
+  "command": "/opt/rh/devtoolset-9/root/usr/bin/g++   -I/home/jushan/桌面/ChatRoom/include/common -I/home/jushan/桌面/ChatRoom/include/server -I/home/jushan/桌面/ChatRoom/include/server/db -I/home/jushan/桌面/ChatRoom/include/server/model -I/home/jushan/桌面/ChatRoom/include/client -I/home/jushan/桌面/ChatRoom/include/server/redis  -std=c++11 -g   -o CMakeFiles/ChatServer.dir/model/groupmodel.cpp.o -c /home/jushan/桌面/ChatRoom/src/server/model/groupmodel.cpp",
+  "file": "/home/jushan/桌面/ChatRoom/src/server/model/groupmodel.cpp"
+},
+{
+  "directory": "/home/jushan/桌面/ChatRoom/build/src/server",
+  "command": "/opt/rh/devtoolset-9/root/usr/bin/g++   -I/home/jushan/桌面/ChatRoom/include/common -I/home/jushan/桌面/ChatRoom/include/server -I/home/jushan/桌面/ChatRoom/include/server/db -I/home/jushan/桌面/ChatRoom/include/server/model -I/home/jushan/桌面/ChatRoom/include/client -I/home/jushan/桌面/ChatRoom/include/server/redis  -std=c++11 -g   -o CMakeFiles/ChatServer.dir/model/usermodel.cpp.o -c /home/jushan/桌面/ChatRoom/src/server/model/usermodel.cpp",
+  "file": "/home/jushan/桌面/ChatRoom/src/server/model/usermodel.cpp"
+},
+{
+  "directory": "/home/jushan/桌面/ChatRoom/build/src/server",
+  "command": "/opt/rh/devtoolset-9/root/usr/bin/g++   -I/home/jushan/桌面/ChatRoom/include/common -I/home/jushan/桌面/ChatRoom/include/server -I/home/jushan/桌面/ChatRoom/include/server/db -I/home/jushan/桌面/ChatRoom/include/server/model -I/home/jushan/桌面/ChatRoom/include/client -I/home/jushan/桌面/ChatRoom/include/server/redis  -std=c++11 -g   -o CMakeFiles/ChatServer.dir/redis/redis.cpp.o -c /home/jushan/桌面/ChatRoom/src/server/redis/redis.cpp",
+  "file": "/home/jushan/桌面/ChatRoom/src/server/redis/redis.cpp"
+},
+{
+  "directory": "/home/jushan/桌面/ChatRoom/build/src/client",
+  "command": "/opt/rh/devtoolset-9/root/usr/bin/g++   -I/home/jushan/桌面/ChatRoom/include/common -I/home/jushan/桌面/ChatRoom/include/server -I/home/jushan/桌面/ChatRoom/include/server/db -I/home/jushan/桌面/ChatRoom/include/server/model -I/home/jushan/桌面/ChatRoom/include/client -I/home/jushan/桌面/ChatRoom/include/server/redis  -std=c++11 -g   -o CMakeFiles/ChatClient.dir/main.cpp.o -c /home/jushan/桌面/ChatRoom/src/client/main.cpp",
+  "file": "/home/jushan/桌面/ChatRoom/src/client/main.cpp"
+},
+{
+  "directory": "/home/jushan/桌面/ChatRoom/build/examples",
+  "command": "/opt/rh/devtoolset-9/root/usr/bin/g++   -I/home/jushan/桌面/ChatRoom/include/common -I/home/jushan/桌面/ChatRoom/include/server -I/home/jushan/桌面/ChatRoom/include/server/db -I/home/jushan/桌面/ChatRoom/include/server/model -I/home/jushan/桌面/ChatRoom/include/client -I/home/jushan/桌面/ChatRoom/include/server/redis  -std=c++11 -g   -o CMakeFiles/redis.dir/5-redis.cpp.o -c /home/jushan/桌面/ChatRoom/examples/5-redis.cpp",
+  "file": "/home/jushan/桌面/ChatRoom/examples/5-redis.cpp"
+},
+{
+  "directory": "/home/jushan/桌面/ChatRoom/build/examples",
+  "command": "/opt/rh/devtoolset-9/root/usr/bin/g++   -I/home/jushan/桌面/ChatRoom/include/common -I/home/jushan/桌面/ChatRoom/include/server -I/home/jushan/桌面/ChatRoom/include/server/db -I/home/jushan/桌面/ChatRoom/include/server/model -I/home/jushan/桌面/ChatRoom/include/client -I/home/jushan/桌面/ChatRoom/include/server/redis  -std=c++11 -g   -o CMakeFiles/redis.dir/__/src/server/redis/redis.cpp.o -c /home/jushan/桌面/ChatRoom/src/server/redis/redis.cpp",
+  "file": "/home/jushan/桌面/ChatRoom/src/server/redis/redis.cpp"
+}
+]

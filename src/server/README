@@ -1,0 +1,25 @@
+json字段:
+    type        -- 消息类型,enum中定义
+    id          -- 发送方id
+    to          -- 接收方id
+    name        -- 昵称, 群昵称
+    password    -- 密码
+    errno       -- 错误码
+    error       -- 错误原因
+    offlinemsg  -- 离线消息
+    friends     -- 好友  
+    groupid     -- 群号码
+    desc        -- 群描述
+    users       -- 群员列表
+    msg         -- 消息内容
+    groupname   -- 群名称
+    time        -- 事件
+
+{"type":1,"id":1,"password":"123456"}
+{"type":1,"id":2,"password":"123456789"}
+{"type":5,"to":2,"msg":"hello,zhangsan!"}
+{"type":6,"id":1,"to":2}
+{"type":7,"id":1,"name":"test group","desc":"this is a test group!"}
+
+{"type":8,"id":2,"groupid":1}
+{"type":9,"groupid":1,"id":1}

@@ -1,0 +1,1 @@
+/opt/rh/devtoolset-9/root/usr/bin/g++  -std=c++11 -g  -rdynamic CMakeFiles/redis.dir/5-redis.cpp.o CMakeFiles/redis.dir/__/src/server/redis/redis.cpp.o  -o ../../bin/redis -lhiredis -lpthread 
