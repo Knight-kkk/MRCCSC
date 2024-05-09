@@ -7,7 +7,7 @@
 MRCCSC: A **M**uduo and **R**edis-based **C**hat **C**luster **S**erver and **C**lient.
 
 ## :memo:Overview 
-MRCCSC is a cluster chat system, it employs Muduo as network communication component, employs JSON to organize message,  employs MySQL as DBMS, employs Nginx for load balancing and employs Redis as MQ component.
+  MRCCSC is a cluster chat system, it employs Muduo as network communication component, employs JSON to organize message,  employs MySQL as DBMS, employs Nginx for load balancing and employs Redis as MQ component.
 
 ## :hammer: Environment Configuration & Build
   As mentioned above, MRCCSC is based on Muduo, JSON, MySQL, Nginx and Redis. If you are interested in MRCCSC and try to build and run MRCCSC, you can follow these tutorials to config your basic environment:
