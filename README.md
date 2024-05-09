@@ -4,7 +4,7 @@
                     / / |__/ | | |  _  /  | |     | |     \___  \ | |     
                    / /       | | | | \ \  | |___  | |___   ___| | | |___  
                   /_/        |_| |_|  \_\ \_____| \_____| /_____/ \_____| 
-A **M**uduo and **R**edis-based **C**hat **C**luster **S**erver and **C**lient.
+MRCCSC: A **M**uduo and **R**edis-based **C**hat **C**luster **S**erver and **C**lient.
 
 ## :memo:Overview 
 MRCCSC is a cluster chat system, it employs Muduo as network communication component, employs JSON to organize message,  employs MySQL as DBMS, employs Nginx for load balancing and employs Redis as MQ component.
