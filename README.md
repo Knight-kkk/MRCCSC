@@ -67,4 +67,5 @@ MRCCSC: A **M**uduo and **R**edis-based **C**hat **C**luster **S**erver and **C*
 - The usage of client will be shown once you run it.
 
 ## :art:Features
+  - RMCCSC employs the Muduo network library as the foundational network I/O component, decoupling the business layer from the network layer.
   - 
