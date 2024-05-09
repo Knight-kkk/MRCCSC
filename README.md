@@ -25,4 +25,4 @@ git clone https://github.com/Knight-kkk/MRCCSC.git
 cd build
 ./autobuild.sh
 ```
-
+## 💻 Usage
