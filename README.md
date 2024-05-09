@@ -25,4 +25,5 @@ git clone https://github.com/Knight-kkk/MRCCSC.git
 cd build
 ./autobuild.sh
 ```
+if you build this project successfully, you will see:
 ## 💻 Usage
