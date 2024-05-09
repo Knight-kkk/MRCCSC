@@ -61,11 +61,12 @@ MRCCSC: A **M**uduo and **R**edis-based **C**hat **C**luster **S**erver and **C*
   ```
   Then, run nginx with `nginx -c /path/to/nginx/conf/nginx.conf`.
 
-- Run RMCCSC server(s) with `./bin/ChatServer [IP] [Port]`.
+- Run MRCCSC server(s) with `./bin/ChatServer [IP] [Port]`.
 - Run Redis with `redis-server`.
-- Run RMCCSC client(s) with `./bin/ChatClient [NginxServerIP] 8000`, 8000 is Nginx's default port of load balancing.
+- Run MRCCSC client(s) with `./bin/ChatClient [NginxServerIP] 8000`, 8000 is Nginx's default port of load balancing.
 - The usage of client will be shown once you run it.
 
 ## :art:Features
-  - RMCCSC employs the Muduo network library as the foundational network I/O component, decoupling the business layer from the network layer.
-  - 
+  - MRCCSC employs the Muduo network library as the foundational network I/O component, decoupling the business layer from the network layer.
+  - MRCCSC employs Nginx as a proxy server to implement load balancing, ensuring high availability and disaster recovery for the server cluster.
+  - MRCCSC employs the publish-subscribe mechanism of Redis to enable message sharing and dissemination across server clusters, avoiding direct tight coupling among servers and thereby enhancing the scalability of the cluster.
