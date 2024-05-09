@@ -70,3 +70,5 @@ MRCCSC: A **M**uduo and **R**edis-based **C**hat **C**luster **S**erver and **C*
   - MRCCSC employs the Muduo network library as the foundational network I/O component, decoupling the business layer from the network layer.
   - MRCCSC employs Nginx as a proxy server to implement load balancing, ensuring high availability and disaster recovery for the server cluster.
   - MRCCSC employs the publish-subscribe mechanism of Redis to enable message sharing and dissemination across server clusters, avoiding direct tight coupling among servers and thereby enhancing the scalability of the cluster.
+
+## 📁:Project Organization
