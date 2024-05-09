@@ -34,5 +34,6 @@ If you build this project successfully, you will see:
 ## 💻 Usage
 - First, To enable nginx to effectively perform its load balancing function, you need to edit its configuration file and add the servers that require proxying.
 ```shell
-vim /path/to/nginx/conf/nginx/conf
+vim /path/to/nginx/conf/nginx.conf
 ```
+Add your 
