@@ -25,5 +25,10 @@ git clone https://github.com/Knight-kkk/MRCCSC.git
 cd build
 ./autobuild.sh
 ```
-if you build this project successfully, you will see:
+If you build this project successfully, you will see:
+```
+[ 66%] Built target ChatServer
+[ 80%] Built target ChatClient
+[100%] Built target redis
+```
 ## 💻 Usage
