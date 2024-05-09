@@ -1,4 +1,4 @@
 # MRCCSC
-A Muduo and Redis-based Chat Cluster Server and Client.
+A **M**uduo and **R**edis-based **C**hat **C**luster **S**erver and **C**lient.
 
 ## :memo:Overview
