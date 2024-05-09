@@ -131,7 +131,7 @@ int main(int argc, char * argv[]){
             cin.getline(password, 20);
             
             json js;
-            js["type"] = REG_MSG;
+            js["type"] = REG_MSG;   
             js["name"] = username;
             js["password"] = password;
             string request = js.dump();
