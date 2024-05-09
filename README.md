@@ -81,4 +81,4 @@ MRCCSC: A **M**uduo and **R**edis-based **C**hat **C**luster **S**erver and **C*
 
 
 ## 📧 Contact with me
-If you are interested in MRCCSC or meet some troubles when building it, welcome to [email](fukangkkk@outlook.com) me.
+If you are interested in MRCCSC or meet some troubles when building it, welcome to [email](fukangkkk@outlook.com) me or sumbit issue.
