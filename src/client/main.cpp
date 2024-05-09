@@ -14,10 +14,10 @@
 #include <unordered_map>
 #include <time.h>
 #include <semaphore.h>
-
+#include <atomic>
 using namespace std;
 using json = nlohmann::json;
-bool g_logedIn = false;
+atomic_bool g_logedIn{false};
 
 void help(int fd = -1, const string& args = "");
 void chat(int fd, const string& args);
@@ -107,12 +107,9 @@ int main(int argc, char * argv[]){
     // 初始化信号量
     sem_init(&g_rwsem, 0 , 0);
     // 开启读事件处理线程
-    static int threadNumber = 0;
-    if(threadNumber == 0){
-        thread readThread(readHandler, clientfd);
-        readThread.detach();   
-        threadNumber++; 
-    }
+    thread readThread(readHandler, clientfd);
+    readThread.detach();   
+
     cout << "***************MENU***************\n";
     cout << "[0]. Register an account\n";
     cout << "[1]. Log in\n";
@@ -174,6 +171,7 @@ int main(int argc, char * argv[]){
         else if(choice == "2")
         {
             close(clientfd);
+            sem_destroy(&g_rwsem);
             exit(0);
         }
         else

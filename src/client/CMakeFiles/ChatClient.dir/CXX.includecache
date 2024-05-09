@@ -39,6 +39,8 @@ time.h
 -
 semaphore.h
 -
+atomic
+-
 
 include/common/json.hpp
 algorithm
