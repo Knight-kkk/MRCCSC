@@ -20,6 +20,8 @@ MRCCSC: A **M**uduo and **R**edis-based **C**hat **C**luster **S**erver and **C*
     
   2. The usage of MySQL and JSON has been encapsulated within this project, and will be introduced in subsequent section.
 
+  3. Before building, you should make sure that `g++,gcc,cmake` are configured.
+
   Once you finished these basic environment configuration, you can build MRCCSC next.
   ```shell
   git clone https://github.com/Knight-kkk/MRCCSC.git
