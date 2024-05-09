@@ -64,3 +64,4 @@ MRCCSC: A **M**uduo and **R**edis-based **C**hat **C**luster **S**erver and **C*
 
 ## :art:Features
   MRCCSC supports these fucntions below:
+  - hello
