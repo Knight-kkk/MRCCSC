@@ -37,4 +37,4 @@ If you build this project successfully, you will see:
 ```shell
 vim /path/to/nginx/conf/nginx.conf
 ```
-Add your 
+Add your server info in the `stream` section:
