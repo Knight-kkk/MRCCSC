@@ -1,2 +1,4 @@
 # MRCSC
-A Muduo and Redis-based Chat Server and Client.
+A Muduo and Redis-based Chat Cluster Server and Client.
+
+:memo:hello
