@@ -59,5 +59,5 @@ If you build this project successfully, you will see:
 
 - Run RMCCSC server(s) with `./bin/ChatServer [IP] [Port]`.
 - Run Redis with `redis-server`.
-- Run RMCCSC client(s) with `./bin/ChatClient 8000`, 8000 is Nginx's default port of load balancing.
+- Run RMCCSC client(s) with `./bin/ChatClient [NginxServerIP] 8000`, 8000 is Nginx's default port of load balancing.
 - Run RMCCSC
