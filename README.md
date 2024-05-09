@@ -71,4 +71,4 @@ MRCCSC: A **M**uduo and **R**edis-based **C**hat **C**luster **S**erver and **C*
   - MRCCSC employs Nginx as a proxy server to implement load balancing, ensuring high availability and disaster recovery for the server cluster.
   - MRCCSC employs the publish-subscribe mechanism of Redis to enable message sharing and dissemination across server clusters, avoiding direct tight coupling among servers and thereby enhancing the scalability of the cluster.
 
-## 📁:Project Organization
+## 📁Project Organization
