@@ -55,6 +55,7 @@ If you build this project successfully, you will see:
       }
   }
   ```
-  Then, run nginx with `nginx -c /path/to/nginx/conf/nginx.conf`
+  Then, run nginx with `nginx -c /path/to/nginx/conf/nginx.conf`.
 
 - Run your server(s) with `./bin/ChatServer [NginxServerIP] [8000]`, 8000 is Nginx's default port of load balancing.
+- Run Redis with `redis-server`.
