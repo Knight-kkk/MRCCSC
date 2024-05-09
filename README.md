@@ -18,3 +18,5 @@ As mentioned above, MRCCSC is based on Muduo, JSON, MySQL, Nginx and Redis. If y
 📌*REMARK*:
   1. Since nginx does not support the TCP protocol by default, you should use `./configure --with-stream` to build a TCP-supported version.
   2. The usage of MySQL and JSON has been encapsulated within this project, and will be introduced in subsequent section.
+
+Once you finished these basic environment configuration, you can build MRCCSC next.
