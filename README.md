@@ -63,3 +63,4 @@ If you build this project successfully, you will see:
 - The usage of client will be shown once you run it.
 
 ## :art:Features
+MRCCSC supports these fucntions below:
